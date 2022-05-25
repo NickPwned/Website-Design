@@ -53,6 +53,7 @@ h2 {
     font-family: 'Smooch', Helvetica, sans-serif;
     font-weight: 500;
     font-size: 30px;
+    margin: 0;
 }
 
 p {
@@ -66,6 +67,34 @@ p {
 
 /* Color */
 
+.contain {
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.block {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    width: 32%;
+    min-height: 100px;
+}
+
+.purple {
+    background-color: rgb(187, 26, 187);
+}
+
+.green {
+    background-color: rgb(29, 214, 29);
+}
+
+.cyan {
+    background-color: rgb(0, 255, 255);
+}
+
+.yellow {
+    background-color: rgb(253, 253, 17);
+}
 
 /* Font */
 
