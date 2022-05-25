@@ -70,13 +70,15 @@ p {
 .contain {
     border: 1px solid black;
     margin: 20px auto;
+    padding: 0 20px;
 }
 
 .block {
+    border: 1px solid black;
     display: inline-block;
     margin: 20px auto;
     text-align: center;
-    width: 32%;
+    width: 30%;
     min-height: 100px;
 }
 
@@ -98,5 +100,20 @@ p {
 
 /* Font */
 
+.title {
+    text-decoration: underline;
+    font-size: 18px;
+}
 
+.f1 p {
+    font-family: 'Smooch', Arial, Helvetica, sans-serif;
+}
+
+.f2 p {
+    font-family: 'Koulen', Arial, Helvetica, sans-serif;
+}
+
+.f3 p {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
 /* Text Styles */
